@@ -1,0 +1,47 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+header{ 
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.container{
+   width: 1140px;
+   margin: 0 auto;
+   display: flex ;
+   align-items: center;
+}
+.logo, .container{
+    flex-basis: 20%;
+}
+.menu{
+    flex-basis: 60%;
+}
+.menu ul{
+    margin: 0;
+    padding: 0%;
+}
+.menu ul li {
+        list-style-type: none;
+        display:inline-block;
+        margin-right: 22px;
+        font-size: 16px;
+        color: blue;
+}
+
+.buttons button{
+    background-color: blue;
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    border: 1px blue;
+
+}
