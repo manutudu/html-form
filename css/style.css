@@ -1,47 +1,108 @@
-
-*{
-margin: 0;
-padding: 0;
-}
-
-body{
-    font-family: "Open Sans", sans-serif;
-}
-
-header{ 
+.social-section{
     width: 100%;
-    padding: 10px 0px;
+    padding: 80px 0px;
+}
+
+.social-icon {
+    text-align: center;
+}
+
+
+
+
+.social-icon ul{
+    margin: 0;
+    padding: 0;
+}
+
+.social-icon ul li{
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 10px;
+        width: 60px;
+        height: 60px;
+        background: darkblue;
+        line-height: 60px;
+        border-radius: 18px 0px;  
+        transition: 0.7s;  
+}
+.social-icon ul li:hover{
+    background: black;
+    border-radius: 0px 18px;  
+    transition: 0.7s;   
+}
+
+
+.social-icon ul li a{
+    color: white;
+    font-size: 22px;
+    transition: 0.7s;
+}
+
+.social-icon ul li a i :{
+    color: darkblue;
+    font-size: 22px;
+}
+.social-icon ul li:hover .fa {
+   transform: rotate(360deg);
+    transition: 0.7s;
+}
+
+
+.shawow-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.shadow-section .box{
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    margin-left: 55px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px;
+}
+.shadow-section .box i{
+   font-size: 50px;
+
+}
+
+.shadow-section{
+    width: 100%;
+    padding: 80px 0px;
 }
 
 .container{
-   width: 1140px;
-   margin: 0 auto;
-   display: flex ;
-   align-items: center;
-}
-.logo, .container{
-    flex-basis: 20%;
-}
-.menu{
-    flex-basis: 60%;
-}
-.menu ul{
-    margin: 0;
-    padding: 0%;
-}
-.menu ul li {
-        list-style-type: none;
-        display:inline-block;
-        margin-right: 22px;
-        font-size: 16px;
-        color: blue;
+    width: 1140px;
+    margin: 0 auto;
 }
 
-.buttons button{
-    background-color: blue;
-    padding: 10px 30px;
+.parent{
+    border: 5px solid darkblue;
+    display: flex;
+    height: 600px;
+    flex-direction: row-reverse;
+
+}
+
+
+.child{
+    width: 150px;
+    height: 150px;
+    background-color: darkblue;
     color: white;
-    font-size: 16px;
-    border: 1px blue;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+    line-height: 150px;
+}
 
+.child1{
+
+}
+.child2{
+    
+}
+.child3{
+    
 }
